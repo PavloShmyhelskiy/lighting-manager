@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lighting-manager/static/css/main.a10034fd.chunk.css",
+    "main.js": "/lighting-manager/static/js/main.a0b38c0d.chunk.js",
+    "main.js.map": "/lighting-manager/static/js/main.a0b38c0d.chunk.js.map",
+    "runtime-main.js": "/lighting-manager/static/js/runtime-main.6edf25bf.js",
+    "runtime-main.js.map": "/lighting-manager/static/js/runtime-main.6edf25bf.js.map",
+    "static/js/2.a358a9f4.chunk.js": "/lighting-manager/static/js/2.a358a9f4.chunk.js",
+    "static/js/2.a358a9f4.chunk.js.map": "/lighting-manager/static/js/2.a358a9f4.chunk.js.map",
+    "index.html": "/lighting-manager/index.html",
+    "static/css/main.a10034fd.chunk.css.map": "/lighting-manager/static/css/main.a10034fd.chunk.css.map",
+    "static/js/2.a358a9f4.chunk.js.LICENSE.txt": "/lighting-manager/static/js/2.a358a9f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6edf25bf.js",
+    "static/js/2.a358a9f4.chunk.js",
+    "static/css/main.a10034fd.chunk.css",
+    "static/js/main.a0b38c0d.chunk.js"
+  ]
+}
