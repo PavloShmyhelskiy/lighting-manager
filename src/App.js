@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './components/Main/Main';
+if (!localStorage.getItem("presets")){
+  localStorage.setItem("presets", '[[{"color":"#25d80e","ids":["K49","K50","K51"]},{"color":"#dd1313","ids":["K52","K53","K54"]}]]');
+  localStorage.setItem("currentPreset", "0");
+  localStorage.setItem("currentGroup", "0");
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Main></Main>
     </div>
   );
 }

@@ -1,38 +1,176 @@
+body,
+p,
+h1,
+h2,
+button,
+a,
+img,
+input,
+ul,
+li {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: darkslategray;
+}
+.root{
+    height: 100%;
+}
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.settings {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 300px;
   color: white;
+  border-right: 2px solid red;
 }
-
-.App-link {
-  color: #61dafb;
+.settings h1 {
+  font-size: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.keyboard-row{
+    white-space: nowrap; 
+    user-select: none;
+}
+.pressets {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: column;
+  border-bottom: 2px solid red;
+  align-items: center;
+  justify-content: space-between;
+}
+.pressetsList{
+    height: 250px;
+    width: 200px;
+    overflow: auto;
+}
+.pressetsList li{
+  cursor: pointer;
+}
+.activePreset{
+  color: gold;
+}
+.groups {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.addGroup {
+  margin-top: 20px;
+  justify-self: center;
+  align-self: center;
+}
+.groupList {
+    height: 250px;
+  list-style: none;
+  margin: 0px 20px;
+  overflow: auto;
+}
+.group{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.activeGroup {
+  color: gold;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.circle {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 25px;
+  height: 25px;
+  background-color: aqua;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topPanel {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  justify-content: space-between;
+}
+.vk-btn {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 29px;
+  height: 29px;
+  margin: 2px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  padding: 1px;
+  min-width: 0px;
+  max-width: 500px;
+  min-height: 0px;
+  max-height: 50px;
+  background-color: #f5f5f5;
+}
+.vk-cap {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+  line-height: 25px;
+  pointer-events: none;
+}
+.keyboard {
+  margin-top: 30px;
+}
+.keyboard-row {
+  display: flex;
+}
+#K8{
+    width: 61.9862px;
+}
+#K9{
+    width: 45.4896px;
+}
+#K220{
+    width: 45.4896px;
+}
+#K20{
+    width: 53.7379px;
+}
+#K13{
+    width: 70.2345px;
+}
+#K16{
+    width: 78.48275px;
+}
+#K273{
+    width: 47.48965px;
+}
+#K274{
+  width: 47.48965px;
+}
+#K275{
+  width: 47.48965px;
+}
+#K276{
+width: 47.48965px;
+}
+#K32{
+    width: 284.938px;
 }
